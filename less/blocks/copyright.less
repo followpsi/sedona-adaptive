@@ -1,0 +1,37 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright__text {
+  margin-right: 15px;
+
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.copyright__htmlacademy {
+  margin-top: auto;
+  width: 32px;
+  height: 36px;
+
+  &:hover,
+  &:focus {
+    fill: #81b3d2;
+  }
+
+  &:active {
+    fill: #b2b2b2;
+  }
+}
+
+.copyright__button {
+  margin-top: -5px;
+}
+
+@media (min-width: @tablet-width) {
+  .copyright {
+    margin-left: 0;
+  }
+}
